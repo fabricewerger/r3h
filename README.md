@@ -3,7 +3,7 @@
 ###### This project was bootstrapped with [`create-r3f-app`](https://github.com/utsuboco/create-r3f-app)
 
 In this repository, you'll find out how I a kickstarter for a headless project. I decided to make it open source since I stand behind the #buildinpublic. I hope it helps your creativity or that it is interesting to look at.
-This is a Next.js instance with Typescript, Tailwind support & Storybook +Three.js(R3F) & Storybook.
+This is a Next.js instance with Tailwind support & Storybook +Three.js(R3F) & Storybook.
 
 ## Installation
 
