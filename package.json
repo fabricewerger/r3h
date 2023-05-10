@@ -9,17 +9,9 @@
   "engines": {
     "node": ">=14"
   },
-  "scripts": {
-    "lint": "next lint --fix --dir app",
-    "dev": "next dev",
-    "build": "next build",
-    "analyze": "ANALYZE=true next build",
-    "start": "next start",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
-  },
   "dependencies": {
     "@ducanh2912/next-pwa": "^8.2.0",
+    "@heroicons/react": "^2.0.18",
     "@react-three/drei": "^9.65.3",
     "@react-three/fiber": "^8.12.0",
     "glsl-random": "^0.0.5",
@@ -32,13 +24,15 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.3.0",
-    "@storybook/addon-essentials": "^7.0.8",
-    "@storybook/addon-interactions": "^7.0.8",
-    "@storybook/addon-links": "^7.0.8",
-    "@storybook/blocks": "^7.0.8",
-    "@storybook/nextjs": "^7.0.8",
-    "@storybook/react": "^7.0.8",
+    "@storybook/addon-essentials": "^7.0.10",
+    "@storybook/addon-interactions": "^7.0.10",
+    "@storybook/addon-links": "^7.0.10",
+    "@storybook/blocks": "^7.0.10",
+    "@storybook/nextjs": "^7.0.10",
+    "@storybook/react": "^7.0.10",
     "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/node": "^20.1.2",
+    "@types/react": "^18.2.6",
     "autoprefixer": "^10.4.14",
     "eslint": "^8.38.0",
     "eslint-config-next": "^13.3.0",
@@ -50,8 +44,19 @@
     "postcss": "^8.4.21",
     "prettier": "^2.8.7",
     "raw-loader": "^4.0.2",
-    "storybook": "^7.0.8",
+    "storybook": "^7.0.10",
     "tailwindcss": "^3.3.1",
+    "typescript": "^5.0.4",
     "url-loader": "^4.1.1"
+  },
+  "scripts": {
+    "lint": "next lint --fix --dir app",
+    "dev": "next dev",
+    "build": "next build",
+    "analyze": "ANALYZE=true next build",
+    "start": "next start",
+    "prettier": "npx prettier --list-different \"./src/**/*.{ts,tsx,md}\" \"./app/**/*.{ts,tsx,md}\"\"",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   }
 }
