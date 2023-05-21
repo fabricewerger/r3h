@@ -2,7 +2,10 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@/*": ["app/*", "src/*"]
+      // "@/*": ["app/*", "src/*", "lib/*"]
+      "@app/*": ["app/*"],
+      "@lib/*": ["lib/*"],
+      "@src/*": ["src/*"]
     },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -25,6 +28,6 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/ui/components/3d/Cactus.js"],
   "exclude": ["node_modules"]
 }

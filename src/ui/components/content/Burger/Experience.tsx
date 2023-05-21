@@ -5,6 +5,7 @@ import Placeholder from './Placeholder.tsx'
 import Hamburger from './Hamburger.tsx'
 import Fox from './Fox.tsx'
 import { Suspense } from 'react'
+import { Canvas } from '@react-three/fiber'
 
 export default function Experience() {
   return (
