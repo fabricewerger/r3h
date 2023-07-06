@@ -1,4 +1,5 @@
-# React-Three-Fiber Headless Kickstarter (W.I.P.)
+# React-Three-Fiber Headless (R3H)
+Kickstarter (W.I.P.)
 
 ###### This project was bootstrapped with [`create-r3f-app`](https://github.com/utsuboco/create-r3f-app)
 
